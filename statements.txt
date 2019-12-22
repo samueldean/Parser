@@ -1,0 +1,44 @@
+Parsing the statement: sumTotal = (sum + 47    ) / total
+IDENT		
+ASSIGN_OP	
+LEFT_PAREN	
+IDENT		
+ADD_OP		
+INT_LIT		
+RIGHT_PAREN	
+DIV_OP		
+IDENT		
+Parsing the statement: Total = (sum + 47    ) /
+IDENT		
+ASSIGN_OP	
+LEFT_PAREN	
+IDENT		
+ADD_OP		
+INT_LIT		
+RIGHT_PAREN	
+DIV_OP	
+Parsing the statement: area = (length + width) / 2
+IDENT		
+ASSIGN_OP	
+LEFT_PAREN	
+IDENT		
+ADD_OP		
+IDENT		
+RIGHT_PAREN	
+DIV_OP
+INT_LIT
+Parsing the statement: ageNumbers = age + 3 - 5 * (D / C)
+IDENT		
+ASSIGN_OP
+IDENT		
+ADD_OP
+INT_LIT
+SUB_OP
+INT_LIT
+MULT_OP
+LEFT_PAREN	
+IDENT		
+DIV_OP
+IDENT		
+RIGHT_PAREN	
+END_OF_FILE
